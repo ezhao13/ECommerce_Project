@@ -1,0 +1,33 @@
+.property-card {
+  /* Add a border around the card */
+  border: 0.0625rem solid #ddd; /* 1px = 0.0625rem */
+  /* Round the corners of the card */
+  border-radius: 0.5rem; /* 8px = 0.5rem */
+  /* 4px = 0.25rem, 6px = 0.375rem */
+  box-shadow: 0 0.25rem 0.375rem rgba(0, 0, 0, 0.1);
+  /* Add spacing around the card */
+  margin: 1.25rem; /* 20px = 1.25rem */
+  /* Ensure child elements do not overflow the card */
+  overflow: hidden;
+  /* Ensure all cards have the same width */
+  width: 18.75rem; /* 300px = 18.75rem */
+}
+
+.property-info {
+  /* Add a semi-transparent black background */
+  background: rgba(0, 0, 0, 0.7); 
+  /* Set the text color to white */
+  color: #fff;
+  /* Set the font size of the text */
+  font-size: 0.875rem; /* 14px = 0.875rem */
+  /* Position the info box within the property image */
+  position: absolute; 
+  /* Position the info box 0.625rem from the bottom */
+  bottom: 0.625rem; /* 10px = 0.625rem */
+  /* Position the info box 0.625rem from the right */
+  right: 0.625rem; /* 10px = 0.625rem */
+  /* Add padding inside the info box */
+  padding: 0.3125rem 0.625rem; /* 5px = 0.3125rem, 10px = 0.625rem */
+  /* Round the corners of the info box */
+  border-radius: 0.25rem; /* 4px = 0.25rem */
+}

@@ -1,0 +1,24 @@
+.banner {
+  /* Set the banner background color to red */
+  background-color: #dc3545; 
+  /* Set the text color to white */
+  color: white;
+  /* Add padding inside the banner */
+  /* 5px = 0.3125rem, 20px = 1.25rem */
+  padding: 0.3125rem 1.25rem;
+  /* Set the font size of the text */
+  font-size: 0.875rem; /* 14px = 0.875rem */
+  /* Make the text bold */
+  font-weight: bold; 
+  /* Add a shadow to the banner */
+  /* 2px = 0.125rem, 4px = 0.25rem */
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.2);
+  /* Position the banner absolutely within the card */
+  position: absolute;
+  /* Rotate the banner diagonally */
+  transform: rotate(-45deg);
+  /* Position the banner 1rem from the top */
+  top: 1rem; /* 16px = 1rem */
+  /* Position the banner 1.5625rem to the left */
+  left: -1.5625rem; /* 25px = 1.5625rem */
+}

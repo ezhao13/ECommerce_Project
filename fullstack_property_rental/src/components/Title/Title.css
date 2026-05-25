@@ -1,0 +1,22 @@
+.title-section {
+    /* Center the content horizontally */
+    text-align: center; 
+    /* Add vertical spacing */
+    margin: 1.25rem 0; /* 20px = 1.25rem */
+}
+
+/* Style the title */
+.title-section h1 {
+    /* Set font size */
+    font-size: 1.75rem; /* 28px = 1.75rem */
+    /* Set the text color */
+    color: #262637;
+    /* Add a border at the bottom */
+    border-bottom: 0.125rem solid #2CDEB6; /* 2px = 0.125rem */
+    /* Make the element inline-block */
+    display: inline-block;
+    /* Add padding for spacing */
+    padding: 0.625rem; /* 10px = 0.625rem */
+    /* Remove default margin */
+    margin: 0;
+}

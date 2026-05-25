@@ -1,0 +1,14 @@
+.property-attribute {
+  /* Center the text */
+  text-align: center; 
+  /* Add horizontal padding to the text */
+  padding: 0 0.625rem; /* 10px = 0.625rem */
+  /* Set the font size of the text */
+  font-size: 1rem; /* 16px = 1rem */
+  /* Set the line height for better readability */
+  line-height: 1.4;
+}
+
+p {
+  margin: 0.3125rem; /* 5px */
+}

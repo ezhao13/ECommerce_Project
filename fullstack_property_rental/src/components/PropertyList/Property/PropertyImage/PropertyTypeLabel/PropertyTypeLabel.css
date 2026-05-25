@@ -1,0 +1,23 @@
+.property-type-label {
+  /* Position the label absolutely within the card */
+  position: absolute;
+  /* Position the label 0.625rem from the top */
+  top: 0.625rem; /* 10px = 0.625rem */
+  /* Position the label 0.625rem from the right */
+  right: 0.625rem; /* 10px = 0.625rem */
+  /* Add a semi-transparent background */
+  background-color: rgba(44, 222, 182, 0.9); 
+  /* Set the text color to white */
+  color: #ffffff; 
+  /* Add padding inside the label */
+  /* 5px = 0.3125rem, 10px = 0.625rem */
+  padding: 0.3125rem 0.625rem;
+  /* Round the corners of the label */
+  border-radius: 0.25rem; /* 4px = 0.25rem */
+  /* Set the font size of the text */
+  font-size: 0.75rem; /* 12px = 0.75rem */
+  /* Make the text bold */
+  font-weight: bold;
+  /* Convert the text to uppercase */
+  text-transform: uppercase;
+}

@@ -1,0 +1,12 @@
+.property-list {
+  /* Use flexbox for layout */
+  display: flex;
+  /* Allow wrapping of items to new rows */
+  flex-wrap: wrap;
+  /* Center the items horizontally */
+  justify-content: center;
+  /* Add space between items */
+  gap: 1.25rem; /* 20px = 1.25rem */
+  /* Add padding inside the list */
+  padding: 1.25rem; /* 20px = 1.25rem */
+}

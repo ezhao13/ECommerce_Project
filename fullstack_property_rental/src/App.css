@@ -1,0 +1,19 @@
+html {
+  /* Default root font size */
+  font-size: 16px;
+}
+
+.app {
+  /* Default margin-top */
+  margin-top: 4rem;
+  /* Add margin-bottom */
+  margin-bottom: 8rem;
+}
+
+/* Media query for screens under 800px */
+@media (max-width: 800px) {
+  .app {
+    /* Increase margin-top for smaller screens */
+    margin-top: 10rem;
+  }
+}

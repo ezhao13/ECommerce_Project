@@ -1,0 +1,51 @@
+.footer {
+  /* Fix the footer at the bottom of the viewport */
+    position: fixed; 
+    /* Align the footer to the bottom edge */
+    bottom: 0; 
+    /* Align the footer to the left edge */
+    left: 0; 
+    /* Align the footer to the right edge */
+    right: 0;
+    /* Ensure the footer stays above other content */
+    z-index: 10;
+    /* Set the background color */
+    background-color: #262637; 
+    /* Use white text for contrast */
+    color: #FFFFFF;
+    /* Set the font size */
+    font-size: 1rem; /* 16px = 1rem */
+    /* Center-align the text */
+    text-align: center; 
+    /* Add padding inside the footer */
+    padding: 0.625rem; /* 10px / 16px = 0.625rem */
+}
+
+.message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style for icons inside the footer */
+.footer .icon {
+    /* Add spacing to the right of the icon */
+    margin-right: 0.5rem; /* 8px / 16px = 0.5rem */
+    /* Set the icon color */
+    color: #2CDEB6; 
+}
+
+.footer .status {
+    /* Add bold styling to the status text */
+    font-weight: bold;
+}
+
+.footer .status.open {
+    /* Green text for open status */
+    color: #2CDEB6; 
+}
+
+.footer .status.closed {
+    /* Red text for closed status */
+    color: #DC3545; 
+}
